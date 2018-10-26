@@ -1,0 +1,12 @@
+propel:
+  paths:
+    schemaDir: var/cache/propel/schemas
+  database:
+        connections:
+            default:
+              adapter:              mysql
+              user:                 root
+              password:             canneapeche
+              dsn:                  mysql:host=127.0.0.1;dbname=confluence;charset=utf8mb4
+              options:              {}
+              attributes:           {}
